@@ -31,11 +31,11 @@ export const Header = ({ sticky = false }: HeaderProps) => {
         <Flex>
           <a href="/portfolio">PORTFOLIO</a>
         </Flex>
-        <Flex>
+        {/* <Flex>
           <a href="https://aberikashvili.github.io/" target="_blank">
             MY RESUME
           </a>
-        </Flex>
+        </Flex> */}
         <Flex>
           <a href="/contact">CONTACT</a>
         </Flex>

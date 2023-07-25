@@ -11,10 +11,12 @@ export const Index = async () => {
       </Flex>
       <Flex width="100%" height="800px">
         Companies I helped
+        <br />
+        DevFactory, Trilogy, Aurea, Valor Software, Simplifield,
+        <br />
+        MaxinAI, TRKR LLC, Mobilogy, Volt Delta, Concept Digital
       </Flex>
-      <Flex>
-        <Footer />
-      </Flex>
+      <Footer />
     </>
   );
 };

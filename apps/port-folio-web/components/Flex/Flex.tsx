@@ -39,7 +39,7 @@ export type FlexProps = {
 };
 
 export const Flex = ({
-  dir = 'column',
+  dir = 'row',
   justify = 'center',
   items = 'center',
   content = 'center',
@@ -62,6 +62,7 @@ export const Flex = ({
     <div
       className={classNames.join(' ')}
       style={{
+        ['flex-direction' as any]: dir,
         ['justify-content' as any]: justify,
         ['align-items' as any]: items,
         ['align-content' as any]: content,
