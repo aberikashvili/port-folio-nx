@@ -2,7 +2,11 @@
   "name": "port-folio-nx",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:web": "npx nx serve port-folio-web",
+    "start:api:auth": "npx nx serve api-auth-service",
+    "eslint": ""
+  },
   "private": true,
   "devDependencies": {
     "@nestjs/schematics": "^10.0.1",
